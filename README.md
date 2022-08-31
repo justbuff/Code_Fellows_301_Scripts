@@ -1,3 +1,3 @@
 # ops-challenges-301
 
--[Challenge 02](opschallenge02.sh)
+- [Ops Challenge 02](opschallenge02.sh)

@@ -11,6 +11,6 @@ day=$(date +%D%T)
 
 cp /var/log/syslog .
 
-mv syslog syslog.$day
+mv syslog syslog_$day
 
 # End

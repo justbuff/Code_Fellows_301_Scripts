@@ -7,18 +7,18 @@
 
 # Main
 
-# This displays the contents of the log files
-cat /var/log/syslog
-cat /var/log/wtmp
+# Sets logs as variables
+sysvar=/var/log/syslog
+wtmpvar=/var/log/wtmp
 
-# This deletes the contents of the log files
+# Function to print and delete logs
+deletelog() {
+  cat $1
+  cat /dev/null/ > $1
+  cat $1
+}
 
-cat /dev/null > /var/log/syslog
-cat /dev/null > /var/log/wtmp
-
-# This displays the contents again (empty)
-
-cat /var/log/syslog
-cat /var/log/wtmp
+deletelog $sysvar
+deletelog $wtmpvar
 
 # End

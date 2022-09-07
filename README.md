@@ -5,3 +5,4 @@
 - [Ops Challenge 04](opschallenge04.sh)
 - [Ops Challenge 05](opschallenge05.sh)
 - [Ops Challenge 06](opschallenge06.sh)
+- [Ops Challenge 07](opschallenge07.sh)

@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
 
+# Script: Ops 301 Class 07 Ops Challenge Solution
+# Author: Justin Buffington
+# Date of latest revision: 9/7/2022
+# Purpose: Generates all directories, sub-directories and files for a user-provided directory path
+
 # Import libraries
 
 import os

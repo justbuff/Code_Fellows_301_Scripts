@@ -9,15 +9,14 @@
 
 import os
 
-# Declaration of variables
+# Read user input here into a variable
 
-### Read user input here into a variable
+directoryvar = input("Please enter directory path: ")
 
-# Declaration of functions
+# Declare a function here
 
-### Declare a function here
-
-for (root, dirs, files) in os.walk("testdir"):
+def directoryfunc():
+    for (root, dirs, files) in os.walk(directoryvar):
     ### Add a print command here to print ==root==
     print(root)
     ### Add a print command here to print ==dirs==
@@ -27,6 +26,7 @@ for (root, dirs, files) in os.walk("testdir"):
 
 # Main
 
-### Pass the variable into the function here
+# Pass the variable into the function here
+directoryfunc()
 
 # End

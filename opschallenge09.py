@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env python3
 
 # Script: Ops 301 Class 09 Ops Challenge Solution
 # Author: Justin Buffington

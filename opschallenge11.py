@@ -2,7 +2,7 @@
 
 # Script: Ops 301 Class 11 Ops Challenge Solution
 # Author: Justin Buffington
-# Date of latest revision: 9/11/2022
+# Date of latest revision: 9/12/2022
 # Purpose: Opens and manipulates an existing file
 
 # Main

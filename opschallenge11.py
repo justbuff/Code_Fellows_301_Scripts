@@ -15,7 +15,7 @@ file.writelines(lines)
 
 # Prints line 1
 
-printline = file.readlines(1)
+printline = file.readlines(0)
 print(printline)
 
 # Deletes file

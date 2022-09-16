@@ -12,6 +12,8 @@ import inquirer
 
 destinationvar = input('Please enter URL')
 
+# Ask user to select method from list
+
 httpquestions = [
   inquirer.List('size',
                 message="Which HTTP method do you want?",
@@ -20,14 +22,37 @@ httpquestions = [
 ]
 httpanswers = inquirer.prompt(questions)
 
+# Prints url and method choice
+
 print(httpanswers["size"], destinationvar)
 
-requestvar = requests.get(http://www.google.com)
+# Runs specific requests based off selection
 
-if response.status_code == 200:
+if httpanswers == 'GET':
+  method = requests.get
+elif httpanswers == 'POST':
+  method = requests.post
+elif httpanswers == 'PUT':
+  method = requests.put
+elif httpanswers == 'DELETE':
+  method = requests.delete
+elif httpanswers == 'HEAD':
+  method = requests.head
+elif httpanswers == 'PATCH':
+  method = requests.patch
+elif httpanswers == 'OPTIONS':
+  method = requests.options
+else print('Please re-run script')
+  return None
+
+requestvar = method(destinationvar)
+
+if requestvar.status_code == 200:
   print('Success!')
-elif response.status_code == 404:
+elif requestvar.status_code == 404:
   print('Not Found')
-elif response.status_code == 500:
+  
+print('\nHeader Info\n')
+print(requests.headers)
       
-
+run_command()

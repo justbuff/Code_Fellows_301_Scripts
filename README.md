@@ -11,3 +11,5 @@
 - [Ops Challenge 10](opschallenge10.sh)
 - [Ops Challenge 11](opschallenge11.sh)
 - [Ops Challenge 12](opschallenge12.sh)
+- [Ops Challenge 13](opschallenge13.sh)
+- [Ops Challenge 14](opschallenge14.sh)

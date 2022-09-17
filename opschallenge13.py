@@ -54,5 +54,3 @@ elif requestvar.status_code == 404:
   
 print('\nHeader Info\n')
 print(requests.headers)
-      
-run_command()

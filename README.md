@@ -11,5 +11,5 @@
 - [Ops Challenge 10 - Python File Handling](opschallenge10.sh)
 - [Ops Challenge 11 - Psutil](opschallenge11.sh)
 - [Ops Challenge 12 - Python Requests Library](opschallenge12.sh)
-- [Ops Challenge 13 - Powershell AD Automation](opschallenge13.py)
+- [Ops Challenge 13 - HTTP Request](opschallenge13.py)
 - [Ops Challenge 14 - Python Malware Analysis](opschallenge14.py)
